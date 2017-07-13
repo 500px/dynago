@@ -1,7 +1,7 @@
 Dynago
 ======
 
-[![Build Status](https://travis-ci.org/500px/dynago.svg?branch=master)](https://travis-ci.org/500px/dynago) [![GoDoc](https://godoc.org/github.com/500px/dynago?status.svg)](https://godoc.org/github.com/500px/dynago)
+[![GoDoc](https://godoc.org/github.com/500px/dynago?status.svg)](https://godoc.org/github.com/500px/dynago)
 
 Dynago is a DynamoDB client API for Go.
 
