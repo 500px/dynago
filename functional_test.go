@@ -6,8 +6,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	dynago "github.com/leevlad/dynago"
-	"github.com/leevlad/dynago/schema"
+	dynago "github.com/500px/dynago"
+	"github.com/500px/dynago/schema"
 )
 
 type functional struct {

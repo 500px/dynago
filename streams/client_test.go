@@ -3,9 +3,9 @@ package streams_test
 import (
 	"testing"
 
-	"github.com/leevlad/dynago"
-	"github.com/leevlad/dynago/schema"
-	"github.com/leevlad/dynago/streams"
+	"github.com/500px/dynago"
+	"github.com/500px/dynago/schema"
+	"github.com/500px/dynago/streams"
 
 	"github.com/stretchr/testify/assert"
 )

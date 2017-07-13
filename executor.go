@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/leevlad/dynago/internal/aws"
-	"github.com/leevlad/dynago/schema"
+	"github.com/500px/dynago/internal/aws"
+	"github.com/500px/dynago/schema"
 )
 
 /*

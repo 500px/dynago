@@ -3,7 +3,7 @@ package dynago_test
 import (
 	"fmt"
 
-	"github.com/leevlad/dynago"
+	"github.com/500px/dynago"
 )
 
 var region, accessKey, secretKey, table string

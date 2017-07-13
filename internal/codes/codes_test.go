@@ -3,8 +3,8 @@ package codes_test
 import (
 	"testing"
 
-	"github.com/leevlad/dynago"
-	"github.com/leevlad/dynago/internal/codes"
+	"github.com/500px/dynago"
+	"github.com/500px/dynago/internal/codes"
 
 	"github.com/stretchr/testify/assert"
 )

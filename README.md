@@ -1,7 +1,7 @@
 Dynago
 ======
 
-[![Build Status](https://travis-ci.org/underarmour/dynago.svg?branch=master)](https://travis-ci.org/underarmour/dynago) [![GoDoc](https://godoc.org/github.com/leevlad/dynago?status.svg)](https://godoc.org/github.com/leevlad/dynago)
+[![Build Status](https://travis-ci.org/underarmour/dynago.svg?branch=master)](https://travis-ci.org/underarmour/dynago) [![GoDoc](https://godoc.org/github.com/500px/dynago?status.svg)](https://godoc.org/github.com/leevlad/dynago)
 
 Dynago is a DynamoDB client API for Go.
 
@@ -15,9 +15,9 @@ Installation
 ------------
 Install using `go get`:
 
-    go get github.com/leevlad/dynago
+    go get github.com/500px/dynago
 
-Docs are at http://godoc.org/github.com/leevlad/dynago
+Docs are at http://godoc.org/github.com/500px/dynago
 
 Example
 -------
@@ -70,10 +70,10 @@ client.PutItem("person", doc).Execute()
  * Lists are supported using [`dynago.List`][dynagoList]
  * `time.Time` is only accepted if it's a UTC time, and is marshaled to a dynamo string in iso8601 compact format. It comes back as a string, an can be got back using `GetTime()` on `Document`.
 
-[dynagoDocument]: http://godoc.org/github.com/leevlad/dynago#Document
-[dynagoList]: http://godoc.org/github.com/leevlad/dynago#List
-[dynagoNumber]: http://godoc.org/github.com/leevlad/dynago#Number
-[dynagoStringSet]: http://godoc.org/github.com/leevlad/dynago#StringSet
+[dynagoDocument]: http://godoc.org/github.com/500px/dynago#Document
+[dynagoList]: http://godoc.org/github.com/500px/dynago#List
+[dynagoNumber]: http://godoc.org/github.com/500px/dynago#Number
+[dynagoStringSet]: http://godoc.org/github.com/500px/dynago#StringSet
 
 Debugging
 ---------
@@ -87,8 +87,8 @@ dynago.Debug = dynago.DebugRequests | dynago.DebugResponses
 
 If you would like to change how the debugging is printed, please set [`dynago.DebugFunc`][dynagoDebugFunc] to your preference.
 
-[dynagoDebug]: http://godoc.org/github.com/leevlad/dynago#Debug
-[dynagoDebugFunc]: http://godoc.org/github.com/leevlad/dynago#DebugFunc
+[dynagoDebug]: http://godoc.org/github.com/500px/dynago#Debug
+[dynagoDebugFunc]: http://godoc.org/github.com/500px/dynago#DebugFunc
 
 Version Compatibility
 ---------------------

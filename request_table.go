@@ -1,7 +1,7 @@
 package dynago
 
 import (
-	"github.com/leevlad/dynago/schema"
+	"github.com/500px/dynago/schema"
 )
 
 type awsSchemaExecutor struct {

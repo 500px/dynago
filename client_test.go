@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/leevlad/dynago/internal/aws"
+	"github.com/500px/dynago/internal/aws"
 )
 
 func setUp(t *testing.T) (*assert.Assertions, *Client, *MockExecutor) {

@@ -1,8 +1,8 @@
 package streams
 
 import (
-	"github.com/leevlad/dynago"
-	"github.com/leevlad/dynago/schema"
+	"github.com/500px/dynago"
+	"github.com/500px/dynago/schema"
 )
 
 // Stream is the compact representation of a stream.

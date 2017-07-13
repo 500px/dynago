@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/leevlad/dynago/internal/codes"
-	"github.com/leevlad/dynago/internal/dynamodb"
+	"github.com/500px/dynago/internal/codes"
+	"github.com/500px/dynago/internal/dynamodb"
 )
 
 // Error encapsulates errors coming from amazon/dynamodb.
