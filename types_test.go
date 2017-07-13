@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/leevlad/dynago"
+	"github.com/500px/dynago"
 	"github.com/stretchr/testify/assert"
 )
 
